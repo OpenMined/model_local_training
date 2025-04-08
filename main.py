@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from datetime import datetime
-from syftbox.lib import Client
+from syft_core import Client
 from torch.utils.data import DataLoader, TensorDataset
 import os
 from pathlib import Path
